@@ -32,4 +32,22 @@ public class Invoice {
     public double getItemPrice() {
         return this.itemPrice;
     }
+
+    public void setPartNum(String partNum) {
+        this.partNum = partNum;
+    }
+
+    public void setPartDesc(String partDesc) {
+        this.partDesc = partDesc;
+    }
+
+    public void setItemQuantity(int itemQuantity) {
+        this.itemQuantity = itemQuantity;
+    }
+
+    public void setItemPrice(double itemPrice) {
+        this.itemPrice = itemPrice;
+    }
+
+
 }
